@@ -93,7 +93,7 @@ document.querySelectorAll('form').forEach((form) => {
     );
     window.location.href = 'mailto:Supportivepromotioncompany@gmail.com?subject=' + subject + '&body=' + body;
     setTimeout(() => {
-      window.open('https://wa.me/12088409202?text=' + whatsappText, '_blank');
+      window.open('https://wa.me/15862413577?text=' + whatsappText, '_blank');
     }, 700);
   });
 });
@@ -114,7 +114,7 @@ if (waInquiry) {
       'Email: ' + get('input[name="email"], #email') + '\\n\\n' +
       'What I want to promote:\\n' + get('textarea[name="message"], textarea')
     );
-    waInquiry.href = 'https://wa.me/12088409202?text=' + text;
+    waInquiry.href = 'https://wa.me/15862413577?text=' + text;
   });
 }
 
